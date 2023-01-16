@@ -6,6 +6,7 @@
   "license": "MIT",
   "repository": "https://github.com/nestjs/swagger",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc -p tsconfig.json",
     "format": "prettier \"lib/**/*.ts\" --write",
     "lint": "eslint 'lib/**/*.ts' --fix",
